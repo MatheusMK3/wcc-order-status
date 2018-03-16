@@ -81,6 +81,7 @@ wp_enqueue_style ( 'wccos-order-status', plugins_url( '/wcc-order-status.css', _
 add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'wcc_plugin_links' );
 
 function wcc_plugin_links ( $links ) {
+   $links[] = '<a href="https://github.com/MatheusMK3/wcc-order-status" target="_blank" title="Star this plugin on GitHub! &lt;3">GitHub</a>';
    $links[] = '<a style="color:#3FA342;font-weight:bold;" href="https://pag.ae/bgqs8RP" target="_blank" title="Support the development of this plugin! :)">Donate!</a>';
    return $links;
 }
