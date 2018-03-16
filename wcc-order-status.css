@@ -1,0 +1,28 @@
+.wccos-order-status {
+	width: 80%;
+	margin: 2em auto;
+}
+.wccos-order-status table {
+	width: 100%;
+}
+.wccos-order-status table td {
+	padding: 1em;
+	padding-bottom: 3em;
+	position: relative;
+	text-align: center;
+}
+.wccos-order-status table td:before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	bottom: 1em;
+	left: 0px;
+	right: 0px;
+	color: #f0f0f0;
+	background-color: #f0f0f0;
+	height: 1em;
+}
+.wccos-order-status table td.enabled:before {
+	color: #762acd;
+	background-color: #762acd;
+}
